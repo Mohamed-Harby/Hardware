@@ -6,7 +6,7 @@ xn = ones(N, 1);
 Wn = zeros(N); % N*N matrix --> twiddle fator
 for k=0:N-1
     for n=0:N-1
-        Wn(k+1, n+1) = exp(-1i * 2 * pi * k * n/ N);
+        Wn(k+1, n+1) = exp(-1i * 2 * pi * k * n / N);
     end
 end
 
